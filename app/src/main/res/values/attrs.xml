@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QQStepCountView">
+        <attr name="outerColor" format="color" />
+        <attr name="innerColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="stepTextSize" format="dimension" />
+        <attr name="stepTextColor" format="color" />
+        <attr name="stepStartAngle" format="integer" />
+        <attr name="stepEndAngle" format="integer" />
+    </declare-styleable>
+</resources>

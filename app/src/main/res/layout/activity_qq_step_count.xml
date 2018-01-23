@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.view.lp.androidview.stepcount.QQStepCountView
+        android:id="@+id/qq_step"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        app:stepTextColor="@color/colorAccent"
+        app:outerColor="@color/colorPrimary"
+        app:innerColor="@color/colorAccent"
+        app:stepTextSize="25sp"
+        app:borderWidth="10dp"
+        app:stepStartAngle="0"
+        app:stepEndAngle="360"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onStatCount"
+        android:text="开始"/>
+</LinearLayout>
