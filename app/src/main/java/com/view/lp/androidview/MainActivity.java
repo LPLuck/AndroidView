@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.view.lp.androidview.stepcount.QQStepCountActivity;
+import com.view.lp.androidview.textchangecolor.TextChangeColorActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,5 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void qqStepCount(View view){
         startActivity(new Intent(this, QQStepCountActivity.class));
+    }
+    public void onChangeTextColor(View view){
+        startActivity(new Intent(this, TextChangeColorActivity.class));
     }
 }

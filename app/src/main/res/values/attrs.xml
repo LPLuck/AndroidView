@@ -9,4 +9,9 @@
         <attr name="stepStartAngle" format="integer" />
         <attr name="stepEndAngle" format="integer" />
     </declare-styleable>
+
+    <declare-styleable name="TextChangeColorView">
+        <attr name="leftToRightColor" format="color"></attr>
+        <attr name="rightToLLeft" format="color"></attr>
+    </declare-styleable>
 </resources>

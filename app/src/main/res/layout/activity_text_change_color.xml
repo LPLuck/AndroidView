@@ -10,15 +10,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.view.lp.androidview.MainActivity"
     android:orientation="vertical">
+    <com.view.lp.androidview.textchangecolor.TextChangeColorView
+        android:id="@+id/text_change_color"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Hello World"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="qqStepCount"
-        android:text="计步器"/>
+        android:onClick="onLeftToRight"
+        android:text="左到右"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onChangeTextColor"
-        android:text="字体变色"/>
+        android:onClick="onRightToLeft"
+        android:text="右到左"/>
 </LinearLayout>

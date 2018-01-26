@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".stepcount.QQStepCountActivity"/>
+        <activity android:name=".textchangecolor.TextChangeColorActivity"/>
     </application>
 
 </manifest>
